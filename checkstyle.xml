@@ -1,0 +1,31 @@
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <property name="severity" value="warning"/>
+
+    <!-- Specify the Checkstyle configuration properties -->
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+        <property name="fileExtensions" value="java"/>
+    </module>
+
+    <!-- Prohibit public or default constructors in utility classes -->
+    <module name="HideUtilityClassConstructor"/>
+
+    <!-- Ensure that method parameters are final where possible -->
+    <module name="FinalParameters"/>
+
+    <!-- Require Java code to be written with a specific coding style -->
+    <module name="Checker">
+        <module name="TreeWalker">
+            <module name="AvoidStarImport"/>
+            <module name="ArrayTypeStyle"/>
+            <module name="ModifierOrder"/>
+            <module name="RedundantImport"/>
+            <module name="UnusedImports"/>
+        </module>
+    </module>
+
+</module>

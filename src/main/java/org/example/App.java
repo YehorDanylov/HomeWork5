@@ -3,11 +3,13 @@ package org.example;
 /**
  * Entry point and utility methods for the application.
  */
-@SuppressWarnings("HideUtilityClassConstructor")
 public final class App {
 
+    /**
+     * Private constructor to prevent instantiation of utility class.
+     */
     private App() {
-        // private constructor to prevent instantiation
+        throw new AssertionError("Instantiating utility class...");
     }
 
     /**
