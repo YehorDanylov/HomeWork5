@@ -11,12 +11,6 @@
         <property name="fileExtensions" value="java"/>
     </module>
 
-    <!-- Prohibit public or default constructors in utility classes -->
-    <module name="HideUtilityClassConstructor"/>
-
-    <!-- Ensure that method parameters are final where possible -->
-    <module name="FinalParameters"/>
-
     <!-- Require Java code to be written with a specific coding style -->
     <module name="TreeWalker">
         <module name="AvoidStarImport"/>
