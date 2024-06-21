@@ -18,14 +18,11 @@
     <module name="FinalParameters"/>
 
     <!-- Require Java code to be written with a specific coding style -->
-    <module name="Checker">
-        <module name="TreeWalker">
-            <module name="AvoidStarImport"/>
-            <module name="ArrayTypeStyle"/>
-            <module name="ModifierOrder"/>
-            <module name="RedundantImport"/>
-            <module name="UnusedImports"/>
-        </module>
+    <module name="TreeWalker">
+        <module name="AvoidStarImport"/>
+        <module name="ArrayTypeStyle"/>
+        <module name="ModifierOrder"/>
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
     </module>
-
 </module>
