@@ -3,6 +3,7 @@ package org.example;
 /**
  * Entry point and utility methods for the application.
  */
+@SuppressWarnings("HideUtilityClassConstructor")
 public final class App {
 
     private App() {
