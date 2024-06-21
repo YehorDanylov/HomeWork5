@@ -5,9 +5,6 @@ package org.example;
  */
 public final class App {
 
-    /**
-     * Private constructor to prevent instantiation of utility class.
-     */
     private App() {
         throw new AssertionError("Instantiating utility class...");
     }
